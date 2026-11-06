@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalebe Daniel — Audiovisual &amp; Design</title>
+  <meta name="description" content="Conteúdo que posiciona marcas. Audiovisual, design e estratégia para uma presença digital que fica.">
+  
+  <!-- Lenis para Smooth Scroll -->
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- Cursor Customizado -->
+<div class="custom-cursor" aria-hidden="true"></div>
+<div class="custom-cursor-follower" aria-hidden="true"></div>
+
+<main>
+<!-- LIQUID GLASS NAV HERO -->
+<header class="liquid-header">
+  <a class="brand glass-element" href="#inicio" aria-label="Kalebe Daniel — início">
+    <span>KD</span>
+    <small>KALEBE DANIEL</small>
+  </a>
+  
+  <nav class="nav-pill-center glass-element" aria-label="Navegação principal">
+    <a href="#sobre" class="nav-link" aria-label="Sobre"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></svg><span class="nav-label">Sobre</span></a>
+    <a href="#servicos" class="nav-link" aria-label="Serviços"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg><span class="nav-label">Serviços</span></a>
+    <a href="#portfolio" class="nav-link" aria-label="Projetos"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span class="nav-label">Projetos</span></a>
+    <a href="#processo" class="nav-link" aria-label="Processo"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.5 6H15a3 3 0 0 1 0 6H9a3 3 0 0 0 0 6h6.5"/></svg><span class="nav-label">Processo</span></a>
+    <a href="#faq" class="nav-link" aria-label="FAQ"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7"/><path d="M12 17h.01"/></svg><span class="nav-label">FAQ</span></a>
+  </nav>
+
+  <a class="nav-contact-btn glass-element" href="#contato">Entrar em contato</a>
+
+  <button class="menu-pill glass-element mobile-only" type="button" aria-expanded="false" aria-controls="mobile-menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true">
+      <path d="M4 5h16"></path>
+      <path d="M4 12h16"></path>
+      <path d="M4 19h16"></path>
+    </svg>
+    <span>MENU</span>
+  </button>
+</header>
+
+<nav id="mobile-menu" class="menu-overlay" aria-hidden="true">
+<div class="menu-glow"></div>
+<p>EXPLORE O PORTFÓLIO</p>
+<a href="#sobre"><i>01</i><span>Sobre</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right" aria-hidden="true"><path d="m7 7 10 10"></path><path d="M17 7v10H7"></path></svg></a>
+<a href="#servicos"><i>02</i><span>Serviços</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right" aria-hidden="true"><path d="m7 7 10 10"></path><path d="M17 7v10H7"></path></svg></a>
+<a href="#portfolio"><i>03</i><span>Projetos</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right" aria-hidden="true"><path d="m7 7 10 10"></path><path d="M17 7v10H7"></path></svg></a>
+<a href="#processo"><i>04</i><span>Processo</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right" aria-hidden="true"><path d="m7 7 10 10"></path><path d="M17 7v10H7"></path></svg></a>
+<a href="#depoimentos"><i>05</i><span>Parcerias</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right" aria-hidden="true"><path d="m7 7 10 10"></path><path d="M17 7v10H7"></path></svg></a>
+<a href="#contato"><i>06</i><span>Contato</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right" aria-hidden="true"><path d="m7 7 10 10"></path><path d="M17 7v10H7"></path></svg></a>
+<a href="#faq"><i>07</i><span>FAQ</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right" aria-hidden="true"><path d="m7 7 10 10"></path><path d="M17 7v10H7"></path></svg></a>
+</nav>
+<a class="floating-contact" href="https://wa.me/5591999141205?text=Ol%C3%A1%2C%20Kalebe!%20Quero%20conversar%20sobre%20um%20projeto." target="_blank" rel="noreferrer" aria-label="Conversar com Kalebe Daniel pelo WhatsApp">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle" aria-hidden="true"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg>
+<span>VAMOS CRIAR</span>
+</a>
+
+<section class="hero" id="inicio">
+<div class="ambient-grid" aria-hidden="true"></div>
+<div class="hero-glow" aria-hidden="true"></div>
+<div class="hero-meta">
+<span>CRIATIVO VISUAL · SC / BRASIL</span>
+</div>
+<div class="hero-copy">
+<p class="eyebrow"><i></i> AUDIOVISUAL · DESIGN · ESTRATÉGIA</p>
+<h1 class="hero-title-impact">CONTEÚDO QUE<br/><em>posiciona</em> MARCAS.</h1>
+<div class="hero-summary">
+<p>Audiovisual, design e estratégia para transformar a presença digital da sua marca em algo que as pessoas veem, sentem e lembram.</p>
+<div class="hero-actions">
+<a class="button primary" href="#contato">Solicitar orçamento <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+<a class="button secondary" href="#portfolio">Ver projetos <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right" aria-hidden="true"><path d="m7 7 10 10"></path><path d="M17 7v10H7"></path></svg></a>
+</div>
+</div>
+</div>
+<div class="scroll-cue"><span>ROLE PARA EXPLORAR</span><i></i></div>
+</section>
+
+<!-- NOVA SEÇÃO SOBRE COM A FOTO FUSIONADA -->
+<section class="about-cover reveal" id="sobre">
+  <img src="imagens/kalebegradient.jpeg" alt="Kalebe Daniel" class="about-photo-blend" />
+  <div class="about-content-wrapper">
+    <div class="about-text-content">
+      <div class="section-label" style="margin-bottom: 16px;">
+        <span>01</span>
+        <span>SOBRE</span>
+      </div>
+      <h2>
+        <span class="thin-text">PRAZER,</span><br>
+        SOU <span class="blue-text">KALEBE DANIEL.</span>
+      </h2>
+      <div class="about-divider-line"></div>
+      <p>
+        Tenho 17 anos e encontrei no <span class="blue-highlight">audiovisual</span><br>
+        e no <span class="blue-highlight">design</span> uma forma de transformar<br>
+        ideias em algo que as pessoas possam<br>
+        ver, sentir e lembrar.
+      </p>
+      <p>
+        Meu trabalho vai além de produzir algo bonito.<br>
+        Busco entender cada <span class="blue-highlight">marca</span>, sua <span class="blue-highlight">identidade</span><br>
+        e como ela quer ser percebida.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="services section-shell" id="servicos">
+<div class="services-stage">
+<div class="section-label">
+<span>02</span>
+<span>O QUE EU FAÇO</span>
+</div>
+<p class="stage-intro">Quatro frentes conectadas por uma mesma direção: construir presença com personalidade.</p>
+<div class="visual-stack">
+<div class="visual-layer active">
+<div class="service-mockup mockup-strategy" aria-hidden="true">
+<div class="mockup-bar"><i></i><i></i><i></i><span>KALEBE / STUDIO</span></div>
+<div class="strategy-board">
+<small>OBJETIVO</small>
+<strong>POSICIONAR</strong>
+<div><span></span><span></span><span></span></div>
+<p>ideia → direção → conteúdo</p>
+</div>
+</div>
+<span>DIREÇÃO CRIATIVA</span>
+</div>
+<div class="visual-layer">
+<div class="service-mockup mockup-identity" aria-hidden="true">
+<div class="mockup-bar"><i></i><i></i><i></i><span>KALEBE / STUDIO</span></div>
+<div class="identity-board">
+<span>KD</span>
+<div><i></i><i></i><i></i></div>
+<p>VISUAL SYSTEM / 2026</p>
+</div>
+</div>
+<span>POSICIONAMENTO</span>
+</div>
+<div class="visual-layer">
+<div class="service-mockup mockup-audiovisual" aria-hidden="true">
+<div class="mockup-bar"><i></i><i></i><i></i><span>KALEBE / STUDIO</span></div>
+<div class="video-board">
+<div class="frame-corners"></div>
+<button tabindex="-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play" aria-hidden="true"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg></button>
+<span>00:24:17</span>
+<p>CAPTURE THE FEELING</p>
+</div>
+</div>
+<span>CAPTAÇÃO + EDIÇÃO</span>
+</div>
+<div class="visual-layer">
+<div class="service-mockup mockup-design" aria-hidden="true">
+<div class="mockup-bar"><i></i><i></i><i></i><span>KALEBE / STUDIO</span></div>
+<div class="design-board">
+<div></div><div></div><div></div>
+<span>GRID<br/>SYSTEM</span>
+</div>
+</div>
+<span>SISTEMA VISUAL</span>
+</div>
+</div>
+</div>
+<div class="services-list">
+<article class="service-row active">
+<span>01</span>
+<div>
+<h2>ESTRATÉGIA</h2>
+<p>Cada conteúdo precisa ter um motivo para existir: objetivo, mensagem e direção antes de qualquer câmera ligada.</p>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+</article>
+<article class="service-row">
+<span>02</span>
+<div>
+<h2>IDENTIDADE</h2>
+<p>Uma linguagem reconhecível para sua marca não precisar parecer com todas as outras para funcionar.</p>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+</article>
+<article class="service-row">
+<span>03</span>
+<div>
+<h2>AUDIOVISUAL</h2>
+<p>Imagens que prendem atenção, constroem ritmo e comunicam valor em cada segundo.</p>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+</article>
+<article class="service-row">
+<span>04</span>
+<div>
+<h2>DESIGN</h2>
+<p>Comunicação visual que organiza a mensagem e fortalece a percepção da sua marca.</p>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+</article>
+</div>
+</section>
+
+<section class="portfolio section-shell" id="portfolio">
+<div class="portfolio-heading reveal">
+<div>
+<div class="section-label"><span>03</span><span>PROJETOS SELECIONADOS</span></div>
+<h2>Resultados que<br/>merecem <em>play.</em></h2>
+</div>
+<p>Uma seleção de marcas e conceitos que receberam direção visual, conteúdo e posicionamento.</p>
+</div>
+<div class="portfolio-grid">
+<article class="project-card">
+<div class="project-index"><span>01</span><span>Conteúdo de evento</span></div>
+<div class="project-visual" aria-hidden="true"><div class="project-word">ROYAL LASH</div><div class="project-lines"><i></i><i></i><i></i></div></div>
+<div class="project-overlay"><div><p>ROYAL LASH</p><span>Conteúdo de evento</span></div><span class="project-action" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></span></div>
+</article>
+<article class="project-card project-base">
+<div class="project-index"><span>02</span><span>Conteúdo comercial</span></div>
+<div class="project-visual" aria-hidden="true"><div class="project-word">BASE CONTAINER</div><div class="project-lines"><i></i><i></i><i></i></div></div>
+<div class="project-overlay"><div><p>BASE CONTAINER</p><span>Conteúdo comercial</span></div><span class="project-action" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></span></div>
+</article>
+<article class="project-card project-fulltime">
+<div class="project-index"><span>03</span><span>Identidade audiovisual</span></div>
+<div class="project-visual" aria-hidden="true"><div class="project-word">FULL TIME</div><div class="project-lines"><i></i><i></i><i></i></div></div>
+<div class="project-overlay"><div><p>FULL TIME</p><span>Identidade audiovisual</span></div><span class="project-action" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></span></div>
+</article>
+<article class="project-card project-motors">
+<div class="project-index"><span>04</span><span>Conceito de marca</span></div>
+<div class="project-visual" aria-hidden="true"><div class="project-word">D7 MOTORS</div><div class="project-lines"><i></i><i></i><i></i></div></div>
+<div class="project-overlay"><div><p>D7 MOTORS</p><span>Conceito de marca</span></div><span class="project-action" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></span></div>
+</article>
+</div>
+</section>
+
+<section class="process section-shell" id="processo">
+<div class="process-heading">
+<div class="section-label"><span>04</span><span>PROCESSO</span></div>
+<h2>Do briefing à<br/>entrega <em>perfeita.</em></h2>
+<p>Um processo direto, transparente e organizado para a criação não perder força no caminho.</p>
+</div>
+<div class="timeline">
+<div class="timeline-line" aria-hidden="true"><i class="timeline-progress"></i></div>
+<article class="timeline-step active"><span class="step-number">01</span><div><p>ETAPA 01</p><h3>BRIEFING</h3><span>Entendo o momento, o público e o que a marca precisa comunicar.</span></div></article>
+<article class="timeline-step"><span class="step-number">02</span><div><p>ETAPA 02</p><h3>DIREÇÃO</h3><span>Organizo referências, conceito, roteiro e a linguagem visual do projeto.</span></div></article>
+<article class="timeline-step"><span class="step-number">03</span><div><p>ETAPA 03</p><h3>PRODUÇÃO</h3><span>Captação e criação com atenção ao detalhe, ritmo e consistência.</span></div></article>
+<article class="timeline-step"><span class="step-number">04</span><div><p>ETAPA 04</p><h3>ENTREGA</h3><span>Refino, finalizo e preparo cada material para o canal certo.</span></div></article>
+</div>
+</section>
+
+<section class="testimonials section-shell" id="depoimentos">
+<div class="testimonials-heading reveal">
+<div class="section-label"><span>05</span><span>PARCERIAS</span></div>
+<h2>Projetos com<br/><em>direção.</em></h2>
+<p>Algumas das marcas que já fizeram parte dessa construção visual.</p>
+</div>
+<div class="testimonial-grid">
+<article class="testimonial-card reveal" style="--delay:0ms"><span class="quote-mark">✦</span><p>Conteúdo criado para comunicar lançamentos e presença em eventos com uma estética marcante.</p><div><span class="avatar">RL</span><div><strong>Royal Lash</strong><small>Beleza profissional</small></div></div></article>
+<article class="testimonial-card reveal" style="--delay:120ms"><span class="quote-mark">✦</span><p>Comunicação pensada para transformar soluções modulares em conteúdo claro e comercial.</p><div><span class="avatar">BC</span><div><strong>Base Container</strong><small>Construção modular</small></div></div></article>
+<article class="testimonial-card reveal" style="--delay:240ms"><span class="quote-mark">✦</span><p>Identidade construída em torno de consistência, desempenho e presença 24/7.</p><div><span class="avatar">FT</span><div><strong>Full Time</strong><small>Tecnologia &amp; performance</small></div></div></article>
+</div>
+</section>
+
+<section class="contact section-shell" id="contato">
+<div class="contact-copy reveal">
+<div class="section-label"><span>06</span><span>CONTATO</span></div>
+<h2>Seu próximo<br/>projeto começa <em>aqui.</em></h2>
+<p>Conte o que sua marca precisa. A partir disso, organizo a melhor direção para o projeto.</p>
+<ul>
+<li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Direção visual com objetivo claro</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Escopo e prazos alinhados</li>
+<li><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Comunicação direta durante o projeto</li>
+</ul>
+<a href="mailto:kalebedaniel.st@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg> kalebedaniel.st@gmail.com</a>
+</div>
+<form class="contact-form">
+<div class="form-heading"><h3>Solicitar <em>orçamento</em></h3><span>Sem compromisso.</span></div>
+<div class="form-row">
+<label>NOME<input required="" placeholder="Seu nome" name="nome"/></label>
+<label>WHATSAPP<input required="" type="tel" placeholder="(00) 00000-0000" name="telefone"/></label>
+</div>
+<label>E-MAIL<input required="" type="email" placeholder="voce@email.com" name="email"/></label>
+<label>SERVIÇO<select name="servico" required="">
+<option value="" disabled="" selected="">Selecione uma opção</option>
+<option>Audiovisual</option><option>Design</option><option>Identidade visual</option><option>Conteúdo mensal</option><option>Outro</option>
+</select>
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+</label>
+<label>MENSAGEM<textarea name="mensagem" required="" rows="4" placeholder="Conte sobre o projeto, prazo e objetivo..."></textarea></label>
+<button class="submit-button" type="submit">Enviar mensagem <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button>
+<div class="success-message" role="status">
+<span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span>
+<div><strong>Mensagem preparada.</strong><p>O WhatsApp foi aberto para você concluir o envio.</p></div>
+</div>
+</form>
+</section>
+
+<section class="faq section-shell" id="faq">
+<div class="faq-heading reveal">
+<div class="section-label"><span>07</span><span>FAQ</span></div>
+<h2>Perguntas<br/><em>frequentes.</em></h2>
+</div>
+<div class="faq-list">
+<article class="faq-item open">
+<button type="button" aria-expanded="true"><span>Como funciona o orçamento?</span><i>+</i></button>
+<div class="faq-answer"><p>Cada proposta considera o objetivo, a complexidade, o volume de entregas e a necessidade de captação. Você recebe um escopo claro antes do início.</p></div>
+</article>
+<article class="faq-item">
+<button type="button" aria-expanded="false"><span>Você trabalha com projetos avulsos?</span><i>+</i></button>
+<div class="faq-answer"><p>Sim. Atendo tanto demandas pontuais quanto planos mensais de conteúdo, audiovisual e design.</p></div>
+</article>
+<article class="faq-item">
+<button type="button" aria-expanded="false"><span>A captação está incluída?</span><i>+</i></button>
+<div class="faq-answer"><p>Quando o projeto exige gravação, a captação é prevista no orçamento com duração, local, equipe e equipamentos definidos.</p></div>
+</article>
+<article class="faq-item">
+<button type="button" aria-expanded="false"><span>Qual é o prazo de entrega?</span><i>+</i></button>
+<div class="faq-answer"><p>O prazo varia conforme o projeto e é combinado antes da produção. Entregas maiores podem ser organizadas por etapas.</p></div>
+</article>
+<article class="faq-item">
+<button type="button" aria-expanded="false"><span>Quantas alterações posso solicitar?</span><i>+</i></button>
+<div class="faq-answer"><p>O número de rodadas de ajustes fica descrito na proposta para manter o processo ágil e previsível.</p></div>
+</article>
+<article class="faq-item">
+<button type="button" aria-expanded="false"><span>Você atende fora de Santa Catarina?</span><i>+</i></button>
+<div class="faq-answer"><p>Sim. Projetos de design e edição podem ser feitos à distância; captações em outras cidades recebem planejamento de deslocamento.</p></div>
+</article>
+</div>
+</section>
+
+<section class="final-cta section-shell">
+<div class="cta-orbit" aria-hidden="true"></div>
+<p class="eyebrow reveal"><i></i> SUA MARCA PODE OCUPAR MAIS ESPAÇO</p>
+<h2 class="reveal">Vamos colocar seu<br/>projeto <em>no ar?</em></h2>
+<a class="button primary reveal" href="https://wa.me/5591999141205?text=Ol%C3%A1%2C%20Kalebe!%20Quero%20conversar%20sobre%20um%20projeto." target="_blank" rel="noreferrer">Falar com Kalebe <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+</section>
+
+<footer>
+<div class="footer-brand">
+<a class="brand" href="#inicio"><span>KD</span><small>KALEBE DANIEL</small></a>
+<p>Audiovisual, design e estratégia para marcas que querem ser lembradas.</p>
+</div>
+<div>
+<strong>NAVEGAÇÃO</strong>
+<a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#portfolio">Projetos</a><a href="#contato">Contato</a>
+</div>
+<div>
+<strong>CONTATO</strong>
+<a href="https://wa.me/5591999141205?text=Ol%C3%A1%2C%20Kalebe!%20Quero%20conversar%20sobre%20um%20projeto." target="_blank" rel="noreferrer">WhatsApp</a>
+<a href="mailto:kalebedaniel.st@gmail.com">E-mail</a>
+<a href="#faq">Perguntas frequentes</a>
+</div>
+<div class="footer-end">
+<span>© 2026 KALEBE DANIEL</span>
+<a href="#inicio">VOLTAR AO TOPO <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a>
+</div>
+</footer>
+</main>
+</body>
+</html>
+
